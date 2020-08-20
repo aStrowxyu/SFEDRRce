@@ -26,7 +26,7 @@ def check_vul(url):
         text = ''
 
     if "e10adc3949ba59abbe56e057f20f883e" in text:
-        logger.info("\033[1;32m[*] {} 存在漏洞！\033[0m".format(url))
+        logger.info("\033[1;32m[*] {} is vuln!\033[0m".format(url))
 
 
 def create_vars(urls):
